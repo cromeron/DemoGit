@@ -11,6 +11,9 @@ def dividir(a, b):
         return "Error: La división entre cero no es valida"
     return a / b    
 
+def potencia(a, b):
+    return a ** b  
+
 def main():
     print("=== Calculadora sencilla ===")
     a = float(input("Primer número: "))
@@ -19,8 +22,8 @@ def main():
     print(f"Resta: {restar(a, b)}")
     print(f"Multiplicación: {multiplicar(a, b)}")
     print(f"División: {dividir(a, b)}")
-    
- 
+    print(f"Potencia: {potencia(a, b)}")
+
  
 if __name__ == "__main__":
     main()
